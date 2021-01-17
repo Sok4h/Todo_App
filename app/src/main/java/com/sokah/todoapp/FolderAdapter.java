@@ -49,7 +49,7 @@ public class FolderAdapter extends BaseAdapter {
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
         View cardFolder = layoutInflater.inflate(R.layout.card_folder,null);
         TextView name = cardFolder.findViewById(R.id.nameFolder);
-        TextView numbre = cardFolder.findViewById(R.id.numberFolder);
+        TextView number = cardFolder.findViewById(R.id.numberFolder);
         name.setText(folders.get(position).getName());
 
         return cardFolder;
